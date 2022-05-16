@@ -21,7 +21,7 @@ function HeroHomeOne() {
                                     Hanky panky lavatory up the duff jolly good cack brolly is
                                     chinwag zonked happy days sloshed.
                                 </p>
-                                <ul>
+                                {/* <ul>
                                     <li>
                                         <a href="#">
                                             <i className="fab fa-apple" /> Download for iOS
@@ -33,7 +33,7 @@ function HeroHomeOne() {
                                             Android
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                         <div className="col-lg-6">

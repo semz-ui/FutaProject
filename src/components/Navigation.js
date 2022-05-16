@@ -14,22 +14,25 @@ function Navigation() {
                     </ul>
                 </li>
                 <li>
-                    <Link to="/service">Service</Link>
-                </li>
-                <li>
                     <a href="#">
-                        Pages <i className="fal fa-angle-down" />
+                        Rentals <i className="fal fa-angle-down" />
                     </a>
                     <ul className="sub-menu">
                         <li>
-                            <Link to="/about-us">About</Link>
+                            <Link to="/about-us">North Gate</Link>
                         </li>
                         <li>
-                            <Link to="/error">Error</Link>
+                            <Link to="/error">South Gate</Link>
+                        </li>
+                        <li>
+                            <Link to="/error">West Gate</Link>
                         </li>
                     </ul>
                 </li>
                 <li>
+                    <Link to="/service">About Us</Link>
+                </li>
+                {/* <li>
                     <a href="#">
                         News <i className="fal fa-angle-down" />
                     </a>
@@ -41,7 +44,7 @@ function Navigation() {
                             <Link to="/news/single-news">Single News</Link>
                         </li>
                     </ul>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>

@@ -56,7 +56,7 @@ function Drawer({ drawer, action }) {
                                             <span className="menu-expand">
                                                 <i className="fa fa-angle-down"></i>
                                             </span>
-                                            <a href="#">Pages</a>
+                                            <a href="#">Rentals</a>
                                             <ul
                                                 className="sub-menu"
                                                 style={{
@@ -64,15 +64,17 @@ function Drawer({ drawer, action }) {
                                                 }}
                                             >
                                                 <li>
-                                                    <Link to="/about-us">About Us</Link>
+                                                    <Link to="/about-us">North Gate</Link>
                                                 </li>
-
                                                 <li>
-                                                    <Link to="/error">Error</Link>
+                                                    <Link to="/error">South Gate</Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="/error">West Gate</Link>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li
+                                        {/* <li
                                             onClick={(e) => handler(e, 'news')}
                                             id="news"
                                             className="menu-item-has-children active"
@@ -94,13 +96,20 @@ function Drawer({ drawer, action }) {
                                                     <Link to="/news/single-news">Single News</Link>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li
                                             onClick={(e) => handler(e, 'contact')}
                                             id="contact"
                                             className="menu-item-has-children active"
                                         >
                                             <Link to="/contact">Contact</Link>
+                                        </li>
+                                        <li
+                                            onClick={(e) => handler(e, 'about-us')}
+                                            id="about-us"
+                                            className="menu-item-has-children active"
+                                        >
+                                            <Link to="/about-us">About Us</Link>
                                         </li>
                                     </ul>
                                 </div>

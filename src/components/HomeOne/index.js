@@ -4,12 +4,10 @@ import BackToTop from '../BackToTop';
 import Drawer from '../Mobile/Drawer';
 import BlogHomeOne from './BlogHomeOne';
 import FaqHomeOne from './FaqHomeOne';
-import FeaturesHomeOne from './FeaturesHomeOne';
+// import FeaturesHomeOne from './FeaturesHomeOne';
 import FooterHomeOne from './FooterHomeOne';
 import HeroHomeOne from './HeroHomeOne';
 import HomeOneHeader from './HomeOneHeader';
-import PricingHomeOne from './PricingHomeOne';
-import ProjectHomeOne from './ProjectHomeOne';
 import ServicesHomeOne from './ServicesHomeOne';
 import TeamHomeOne from './TeamHomeOne';
 import TestimonialHomeOne from './TestimonialHomeOne';
@@ -24,14 +22,14 @@ function HomeOne() {
             <HomeOneHeader action={drawerAction.toggle} />
             <HeroHomeOne />
             <ServicesHomeOne />
-            <FeaturesHomeOne />
+            {/* <FeaturesHomeOne /> */}
             <TrafficHomeOne />
             <TestimonialHomeOne />
             <TeamHomeOne />
-            <PricingHomeOne />
-            <FaqHomeOne />
+            {/* <PricingHomeOne /> */}
             <BlogHomeOne />
-            <ProjectHomeOne />
+            <FaqHomeOne />
+            {/* <ProjectHomeOne /> */}
             <FooterHomeOne />
             <BackToTop />
         </>

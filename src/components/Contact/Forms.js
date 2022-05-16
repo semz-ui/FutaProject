@@ -14,17 +14,17 @@ function Forms() {
                                     <h5>Headquaters</h5>
                                     <p>
                                         <i className="fal fa-home"></i>
-                                        744 New York Ave, Brooklyn, Kings,
-                                        <br /> New York 10224
+                                        Northgate, Futa,
+                                        <br /> Akure
                                     </p>
                                 </div>
                                 <div className="single-info">
                                     <h5>Phone</h5>
                                     <p>
                                         <i className="fal fa-phone"></i>
-                                        (+642) 245 356 432
+                                        (+234) 704 616 6802
                                         <br />
-                                        (+420) 336 476 328
+                                        (+234) 813 959 9128
                                     </p>
                                 </div>
                                 <div className="single-info">
